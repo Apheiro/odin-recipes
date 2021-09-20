@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    min-height: 100vh;
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6F6F6;
+}
+
+#presentation{ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#presentation h1{
+    font-size: 47px;
+    font-weight: 300;
+    background-color: white;
+    width: 483px;
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 10px;
+    border-radius: 40px;
+}
+
+#presentation img{
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
+    width: 844px;
+    border-radius: 50px;
+}
+
+#presentation h2{
+    margin:50px 0px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#recipes{
+    display: flex;
+    width: 1920px;
+    justify-content: space-evenly;
+}
+
+a{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 10px 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    scale: 1;
+    transition:scale 0.5s;
+}
+
+a:hover{
+    scale: 1.05;
+}
+
+.description{
+    background-color: rgb(255, 255, 255);
+}
+
+.description h2{
+    width: 229px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 20px 0px 20px;
+}
+
+.description p{
+    font-size: 14px;
+    width: 238px;
+    margin: 0px 20px 20px 20px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    max-height:174px;
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+}
