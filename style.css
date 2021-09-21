@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #F6F6F6;
+    background-color: #eeeeee;
 }
 
 #presentation{ 
@@ -31,7 +31,7 @@ body{
     background-color: white;
     width: 483px;
     height: 76px;
-    box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px;
     border-radius: 40px;
     display: flex;
     align-items: center;
