@@ -28,20 +28,23 @@ body{
     font-size: 27px;
     font-weight: 300;
     background-color: rgb(255, 255, 255);
-    width: 714px;
-    height: 48px;
+    max-width: 1079px;
+    padding: 0px 50px;
+    min-height: 48px;
     box-shadow: rgba(0, 0, 0, 0.055) 0px 5px 10px;
-    border-radius: 40px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 50px 0px;
     font-weight: 400;
+    text-align: center;
 }
 
 #image{
     box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
-    max-width: 714px;
+    max-width: 794px;
+    width: 90%;
     max-height: 518px;
     overflow: hidden;
     border-radius: 50px;
@@ -50,8 +53,7 @@ body{
 }
 
 #image img{
-    width: 714px;
-    
+    width: 100%;
 }
 
 #description{
@@ -59,7 +61,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
     border-radius: 50px;
     padding: 20px 40px;
-    width: 714px;
+    max-width: 714px;
+    width: 90%;
     margin: 50px 0px 0px 0px;
 }
 

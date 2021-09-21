@@ -26,11 +26,12 @@ body{
 }
 
 #presentation h1{
-    font-size: 47px;
+    font-size: 40px;
     font-weight: 300;
     background-color: white;
-    width: 483px;
-    height: 76px;
+    max-width: 400px;
+    width: 90%;
+    height: 66px;
     box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 20px;
     border-radius: 40px;
     display: flex;
@@ -40,7 +41,8 @@ body{
 
 #presentation img{
     box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
-    width: 844px;
+    max-width: 844px;
+    width: 90%;
     border-radius: 50px;
 }
 
@@ -52,8 +54,10 @@ body{
 
 #recipes{
     display: flex;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .button{
@@ -63,6 +67,7 @@ body{
     overflow: hidden;
     scale: 1;
     transition:scale 0.2s;
+    margin: 20px;
 }
 
 .button:hover{
@@ -71,10 +76,11 @@ body{
 
 .description{
     background-color: rgb(255, 255, 255);
+    max-width: 278px;
+    width: 100%;
 }
 
 .description h2{
-    width: 229px;
     font-size: 15px;
     font-weight: 600;
     margin: 20px 20px 0px 20px;
@@ -82,19 +88,43 @@ body{
 
 .description p{
     font-size: 14px;
-    width: 238px;
     margin: 0px 20px 20px 20px;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 240px;
+    max-width: 280px;
     max-height:174px;
     overflow: hidden;
 }
 
 .image img{
     width: 100%;
+}
+
+@media(max-width:450px){
+    #presentation h1{
+        font-size: 30px;
+    }
+
+    #presentation h2{
+        font-size: 25px;
+    }
+
+
+    .description h2{
+        font-size: 14px;
+    }
+
+    .description p{
+        font-size: 12px;
+    }
 }
