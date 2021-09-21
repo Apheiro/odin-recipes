@@ -30,8 +30,12 @@ body{
     font-weight: 300;
     background-color: white;
     width: 483px;
+    height: 76px;
     box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 10px;
     border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #presentation img{
@@ -52,16 +56,16 @@ body{
     justify-content: space-evenly;
 }
 
-a{
+.button{
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.178) 0px 10px 20px;
     border-radius: 20px;
     overflow: hidden;
     scale: 1;
-    transition:scale 0.5s;
+    transition:scale 0.2s;
 }
 
-a:hover{
+.button:hover{
     scale: 1.05;
 }
 
