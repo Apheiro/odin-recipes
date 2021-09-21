@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    min-height: 100vh;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#presentation h1{
+    font-size: 27px;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    width: 714px;
+    height: 48px;
+    box-shadow: rgba(0, 0, 0, 0.055) 0px 5px 10px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    font-weight: 400;
+}
+
+#image{
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
+    max-width: 714px;
+    max-height: 518px;
+    overflow: hidden;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#image img{
+    width: 100%;
+    
+}
+
+#description{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
+    border-radius: 50px;
+    padding: 20px 40px;
+    width: 714px;
+    margin: 50px 0px 0px 0px;
+}
+
+#description h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#description div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#description ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#description ol{
+    list-style: none;
+    padding: 0px;
+}
+
+#description ol li{
+    margin: 15px 0px;
+}
+
+#buttom{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 25px 0px 50px 0px;
+    scale: 1;
+    transition: scale 0.25s;
+}
+
+#buttom:hover{
+    scale: 1.1;
+}
