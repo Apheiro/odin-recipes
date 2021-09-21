@@ -58,6 +58,7 @@ body{
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 144px;
 }
 
 .button{
@@ -110,6 +111,13 @@ body{
     width: 100%;
 }
 
+footer{
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+}
+
 @media(max-width:450px){
     #presentation h1{
         font-size: 30px;
@@ -118,7 +126,6 @@ body{
     #presentation h2{
         font-size: 25px;
     }
-
 
     .description h2{
         font-size: 14px;
