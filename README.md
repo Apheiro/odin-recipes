@@ -1,10 +1,11 @@
-This is my first README
+# My first README ( •̀ ω ´•)✧
 
-I have to make a quick introduction of what I have learned in the odin project, and what I will do in the next lesson.
+In my first project called [Odin-Recipes](apheiro.github.io/odin-recipes/) from "[The Odin Project](https://www.theodinproject.com)", I am going to use everything I have learned, to develop this project and the next one after this one.
 
-First in this lesson I am going to do two projects with CSS and HTML. 
-
-Before in the last lesson I learned all about how to create a website and make it functional I also learned the htm structure, the css structure, and all the basics of using git.
+Acquired knowledge:</br>
+● html structure.</br>
+● css basics.</br>
+● basic use of git (create commits, push, add).
 
 
 
