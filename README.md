@@ -7,6 +7,6 @@ Acquired knowledge:</br>
 ● css basics.</br>
 ● basic use of git (create commits, push, add).
 
-
-
-
+Images preview:</br>
+![](./Preview/Screen%20Shot%202022-05-30%20at%2000.21.36.png)
+![](./Preview/Screen%20Shot%202022-05-30%20at%2000.23.27.png)
